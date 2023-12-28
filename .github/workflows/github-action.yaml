@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} Run GitHub Actions to upload docker image 🚀
 on: 
   push:
     branches:
-      -main
+      - main
 jobs:
   build-and-push-image:
     runs-on: ubuntu-latest
